@@ -33,21 +33,7 @@ This dashboard visualizes people flow, visitor demographics, and camera analytic
 
 ## 📂 Project Structure
 
-```
-├── app.py                     # Main entry point
-├── requirements.txt           # Dependencies
-├── README.md                  # This file
-├── src/
-│   ├── components/
-│   │   ├── people_flow.py     # People flow logic + chart
-│   │   ├── visitor_summary.py # Summary cards and stats
-│   │   └── demographics.py    # Pie charts for gender/age
-│   └── layout/
-│       ├── header.py          # Header pane with logo/title
-│       ├── home.py            # Main dashboard
-│       ├── camera_setup.py    # Camera setup UI
-│       └── zone_details.py    # Zone detail page
-```
+<pre lang="markdown"><code> ``` project-root/ ├── app.py # Main entry point ├── requirements.txt # Dependencies ├── README.md # This file └── src/ ├── components/ │ ├── people_flow.py # People flow logic + chart │ ├── visitor_summary.py # Summary cards and stats │ └── demographics.py # Pie charts for gender/age └── layout/ ├── header.py # Header pane with logo/title ├── home.py # Main dashboard ├── camera_setup.py # Camera setup UI └── zone_details.py # Zone detail page ``` </code></pre>
 
 ## 🐳 Run with Docker
 
