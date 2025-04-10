@@ -33,7 +33,20 @@ This dashboard visualizes people flow, visitor demographics, and camera analytic
 
 ## 📂 Project Structure
 
-<pre lang="markdown"><code> ``` project-root/ ├── app.py # Main entry point ├── requirements.txt # Dependencies ├── README.md # This file └── src/ ├── components/ │ ├── people_flow.py # People flow logic + chart │ ├── visitor_summary.py # Summary cards and stats │ └── demographics.py # Pie charts for gender/age └── layout/ ├── header.py # Header pane with logo/title ├── home.py # Main dashboard ├── camera_setup.py # Camera setup UI └── zone_details.py # Zone detail page ``` </code></pre>
+retail-ai-dashboard/
+├── app.py                  # Main Panel application
+├── requirements.txt        # Python dependencies
+├── README.md               # This file
+└── src/
+    ├── components/
+    │   ├── people_flow.py         # People flow logic and charts
+    │   ├── visitor_summary.py     # Visitor summary stats and deltas
+    │   └── demographics.py        # Gender and age pie charts
+    └── layout/
+        ├── header.py              # Dashboard header with title and logo
+        ├── home.py                # Main dashboard view
+        ├── camera_setup.py        # Camera configuration view
+        └── zone_details.py        # Zone monitoring view
 
 ## 🐳 Run with Docker
 
